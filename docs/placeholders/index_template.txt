@@ -1,0 +1,32 @@
+
+=======================
+Notebooks documentation
+=======================
+
+
+.. raw:: html
+
+   <div class="clearfix" id="featured_pages"><div class="inner-wrap">
+{blocks}
+
+    </div></div>
+
+
+.. toctree::
+   :glob:
+   :titlesonly:
+   :maxdepth: 2
+   :hidden:
+
+
+
+   notebooks/Aggregated_map.ipynb
+   notebooks/Frost_Days.ipynb
+   notebooks/Icing_Days.ipynb
+   notebooks/Linear_regression_ECAS.ipynb
+   notebooks/Tropical_Nights.ipynb
+   notebooks/ECAS_Basics.ipynb
+   notebooks/ECAS_B2DROP.ipynb
+   notebooks/ECASLab-Training.ipynb
+   autoexamples/index
+   general/basics

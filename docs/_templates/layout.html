@@ -1,0 +1,22 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+
+  {{ super() }}
+{% endblock %}
+
+{% block footer %}
+<div class="footer">
+	<div class="footer-text">
+		<div class="copyright">Copyright © ECASLab 2020</div>
+Contact us at ecas-support [at]cmcc [dot] it and subscribe to our user mailing list to get regularly updated on the latest news about ECASLab
+<br>
+<a href="https://www.cmcc.it/privacy-cookie">Cookie Policy</a>
+
+<br>
+<a href="https://www.sphinx-doc.org/en/master/">Created using Sphinx 2.2.0.</a>
+	</div>
+</div>
+
+{% endblock %}

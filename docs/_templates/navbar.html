@@ -1,0 +1,24 @@
+<header id="masthead" class="site-header" role="banner">
+          <div class="menu-main-menu-container collapse navbar-collapse nav-collapse">
+            <ul class="nav navbar-nav">
+              <a class="navbar-brand" href="#"><img class="ecas-image" src="https://ecaslab.cmcc.it/web/img/ecas_logo.png" alt="ECASLab Logo" width="260px"></a>
+              <a class="navbar-brand" href="https://www.cmcc.it" target="blank"><img class="cmcc-image" src="https://ecaslab.cmcc.it/web/img/institute.png" width="200px" alt="Institute Logo"></a>
+              <a class="index_cls" href="{{ pathto(master_doc) }}">Index</a>
+
+
+              {% block navbartoc %}
+                {% include "globaltoc.html" %}
+              {% endblock %}
+              {% if theme_navbar_sidebarrel %}
+                {% block sidebarrel %}
+                  {% include "relations.html" %}
+                {% endblock %}
+              {% endif %}
+
+<!-- 
+              <li>
+                  <a href="http://ophidialab.cmcc.it" rel="nofollow">EXAMPLE LINK</a>
+              </li> -->
+            </ul>
+      </div>
+</header>

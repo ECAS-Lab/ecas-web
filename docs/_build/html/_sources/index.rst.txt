@@ -1,0 +1,17 @@
+.. notebooks documentation master file, created by
+   sphinx-quickstart on Thu Apr 16 07:39:33 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Documentation for Pyophidia Notebooks
+=====================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+   notebooks/Aggregated_map.ipynb
+   notebooks/Frost_Days.ipynb
+   examples/index
+   auto_examples/index

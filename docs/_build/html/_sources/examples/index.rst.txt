@@ -1,0 +1,49 @@
+.. _gallery_examples:
+
+This is my gallery
+==================
+
+Below is a gallery of examples
+
+
+
+.. toctree::
+
+    example_Aggregated_map
+    example_Frost_Days
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbContainer" tooltip="Import PyOphidia and connect to server instance">
+
+.. only:: html
+
+    .. figure:: /examples\images\thumb\gallery_examples_example_aggregated_map.ipynb_thumb.png
+
+        :ref:`gallery_examples_example_aggregated_map.ipynb`
+
+.. raw:: html
+
+    </div>
+
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbContainer" tooltip="This notebook computes the **Frost Days index**: starting from the daily minimum temperature (1980-1990) TN, the Frost Days index is the number of days where $TN < 0°$">
+
+.. only:: html
+
+    .. figure:: /examples\images\thumb\gallery_examples_example_frost_days.ipynb_thumb.png
+
+        :ref:`gallery_examples_example_frost_days.ipynb`
+
+.. raw:: html
+
+    </div>
+
+
+.. raw:: html
+
+    <div style='clear:both'></div>
+
