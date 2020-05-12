@@ -2,3 +2,4 @@ docs/autoexamples
 docs/_static
 docs/notebooks/.ipynb_checkpoints
 docs/_build
+!docs/_static/my-styles.css

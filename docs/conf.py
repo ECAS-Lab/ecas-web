@@ -34,10 +34,9 @@ def setup(app):
 
 # -- Project information -----------------------------------------------------
 
-project = 'notebooks_documentation'
-copyright = '2020, Manos'
+project = u'Ophidia'
+copyright = u'2020, CMCC Foundation'
 author = 'Manos'
-
 
 # -- General configuration ---------------------------------------------------
 
