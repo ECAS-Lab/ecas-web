@@ -1,0 +1,10 @@
+		<div class="tg-one-third">
+			<div class="page_text_container">
+				<h1 class="entry-title">{title}</h1>
+
+:doc:`View <notebooks/{file}>`
+						
+.. raw:: html
+
+       		</div>
+       	</div>
