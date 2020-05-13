@@ -1,0 +1,6 @@
+sphinx
+sphinx-bootstrap-theme
+nbsphinx
+sphinx_gallery
+ipython
+pillow
